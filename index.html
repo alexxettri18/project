@@ -3,147 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modern Static Website</title>
+  <title>Simple Website</title>
+
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Inter", sans-serif;
-    }
-
     body {
-      background: #0f0f0f;
-      color: #eaeaea;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(135deg, #111, #222);
-      padding: 60px 20px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
       text-align: center;
-      box-shadow: 0 4px 30px rgba(0,0,0,0.4);
-    }
-    header h1 {
-      font-size: 2.8rem;
-      font-weight: 700;
-    }
-    header p {
-      opacity: 0.8;
-      margin-top: 10px;
-      font-size: 1.1rem;
+      padding: 40px;
     }
 
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      padding: 15px 0;
-      background: #1a1a1a;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      border-bottom: 1px solid #333;
-    }
-    nav a {
-      color: #eaeaea;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #4da6ff;
+    h1 {
+      color: #2c6bed; /* Font color */
     }
 
-    .container {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 20px;
-    }
-
-    .card {
-      background: #1a1a1a;
-      padding: 25px;
-      border-radius: 12px;
-      margin-bottom: 30px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-      transition: 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.45);
-    }
-
-    button {
-      padding: 12px 25px;
-      background: #4da6ff;
-      border: none;
-      color: black;
-      font-weight: 700;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-top: 15px;
-      transition: 0.3s;
-    }
-    button:hover {
-      background: #1a8cff;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      margin-top: 40px;
-      border-top: 1px solid #333;
-      font-size: 0.9rem;
+    img {
+      width: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
     }
   </style>
 </head>
+
 <body>
+  <h1>Welcome to My Simple Website</h1>
 
-<header>
-  <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1200&q=80" 
-       alt="Hero Image" 
-       style="width:60%; max-width:600px; display:block; margin:0 auto 25px auto; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.4);">
-  <h1>Modern Static Website</h1>
-  <p>Clean. Minimal. Responsive.</p>
-</header>
+  <p style="color:#444;">This is a simple webpage with text and an image.</p>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#features">Features</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-
-  <div class="card" id="home">
-    <h2>Welcome</h2>
-    <p>
-      This modern static website is built using pure HTML and CSS. It features a smooth design, responsive layout, and clean interface.
-    </p>
-  </div>
-
-  <div class="card" id="features">
-    <h2>Features</h2>
-    <ul style="margin-top: 10px;">
-      <li>Sleek dark-mode interface</li>
-      <li>Hover animations & modern layout</li>
-      <li>Sticky navigation bar</li>
-      <li>Lightweight and fully responsive</li>
-    </ul>
-  </div>
-
-  <div class="card" id="contact">
-    <h2>Contact</h2>
-    <p>Need help or want customization? Feel free to reach out.</p>
-  </div>
-
-</div>
-
-<footer>
-  © 2025 Modern Static Website — Built with HTML & CSS only
-</footer>
-
+<img src="https://picsum.photos/400" alt="Random Image" />
 </body>
 </html>
